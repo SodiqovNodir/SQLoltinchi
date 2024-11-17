@@ -1,4 +1,12 @@
- -- ------------------------< Jadval Yaratish >----------------------------
+-- ------------------------< jadvalni ochirish >---------------------------
+
+DROP TABLE IF EXISTS students;
+DROP TABLE IF EXISTS courses;
+DROP TABLE IF EXISTS enrollments;
+DROP TABLE IF EXISTS teachers;
+DROP TABLE IF EXISTS course_assignments;
+
+-- ------------------------< Jadval Yaratish >----------------------------
 
 CREATE TABLE IF NOT EXISTS students(
 	student_id SERIAL PRIMARY KEY,
